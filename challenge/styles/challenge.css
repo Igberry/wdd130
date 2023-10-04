@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+body {
+    background-color:pink;
+    text-align: center;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font: Roboto;
+}
+header h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font: Roboto;
+}
+header h3{
+    font-size: 20px;
+    font: Roboto;
+    text-align: center;
+    color: white;
+}
+main h1{
+    font: Roboto;
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    border: 2px black;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    font: Dancing Script;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+}

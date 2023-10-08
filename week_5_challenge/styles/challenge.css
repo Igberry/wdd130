@@ -1,0 +1,9 @@
+circle {
+    border: 1.5em;
+    margin: 0 auto;
+}
+bottom {
+    background-color: grey;
+    border-image: round;
+    block-size: 0 auto;
+}

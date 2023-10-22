@@ -107,7 +107,7 @@
 /* Activity 4 styles */ 
 .content4 {
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 250px 250px;
   grid-template-rows: 100px 100px;
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
@@ -141,7 +141,7 @@
 } 
 /* Activity 5 styles */ 
 .content5 {
-  grid-template-columns: 200px 600px;
+  grid-template-columns: 200px 500px;
   grid-template-rows: 800px 400px 800px;
   /* This is the parent of the activity 5 boxes. */
   height: 600px;
@@ -152,7 +152,7 @@
   background-color: red;
   z-index: 1;
   position: absolute;
-  padding-right: 600px;
+  padding-right: 500px;
 } 
 .green5 { 
   width: 200px; 
@@ -163,7 +163,7 @@
   margin-top: 100px;
 } 
 .yellow5 {
-  width: 600px; 
+  width: 500px; 
   height: 300px; 
   background-color: gold;
   z-index: 2;
@@ -178,7 +178,7 @@
   z-index: 4;
   position: absolute;
   margin-top: 400px;
-  padding-right: 600px;
+  padding-right: 500px;
 } 
 /* Activity 6 styles */ 
 .content6 {

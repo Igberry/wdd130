@@ -141,7 +141,7 @@
 } 
 /* Activity 5 styles */ 
 .content5 {
-  grid-template-columns: 200px 500px;
+  grid-template-columns: 200px 400px;
   grid-template-rows: 800px 400px 800px;
   /* This is the parent of the activity 5 boxes. */
   height: 600px;
@@ -163,7 +163,7 @@
   margin-top: 100px;
 } 
 .yellow5 {
-  width: 500px; 
+  width: 400px; 
   height: 300px; 
   background-color: gold;
   z-index: 2;

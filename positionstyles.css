@@ -141,7 +141,7 @@
 } 
 /* Activity 5 styles */ 
 .content5 {
-  grid-template-columns: 200px 400px;
+  grid-template-columns: 200px 490px;
   grid-template-rows: 800px 400px 800px;
   /* This is the parent of the activity 5 boxes. */
   height: 600px;
@@ -152,7 +152,7 @@
   background-color: red;
   z-index: 1;
   position: absolute;
-  padding-right: 500px;
+  padding-right: 490px;
 } 
 .green5 { 
   width: 200px; 
@@ -163,13 +163,15 @@
   margin-top: 100px;
 } 
 .yellow5 {
-  width: 400px; 
+  width: 490px; 
   height: 300px; 
   background-color: gold;
   z-index: 2;
   position: absolute; 
   margin-top: 100px;
-  padding-left: 200px; 
+  padding-left: 200px;
+  justify-content: left;
+  align-content: start;
 }
 .blue5 {
   width: 200px; 
@@ -178,7 +180,7 @@
   z-index: 4;
   position: absolute;
   margin-top: 400px;
-  padding-right: 500px;
+  padding-right: 490px;
 } 
 /* Activity 6 styles */ 
 .content6 {

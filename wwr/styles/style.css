@@ -179,6 +179,11 @@ footer p a:hover {
     display: grid;
     grid-template-columns: 10fr;
 }
+/*Blog.html Css*/
+#blog-headline {
+    text-align: center;
+    font-family: 'Dancing Script', 'Roboto', sans-serif;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

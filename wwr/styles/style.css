@@ -188,7 +188,7 @@ footer p a:hover {
 .main-img {
     border: 5px solid white;
     transition: transform .5s;
-    width: 95%;
+    width: 90%;
 }
 .blog-main {
     display: grid;

@@ -46,7 +46,7 @@ main section {
     grid-row: 4/9;
 }
 body {
-    background-color: rgb(149, 149, 199);
+    background-color: grey;
     padding: 0;
     margin: 0;
 }
@@ -62,8 +62,8 @@ nav a:hover {
     background-color: brown;
 }
 .book, .join {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -183,6 +183,133 @@ footer p a:hover {
 #blog-headline {
     text-align: center;
     font-family: 'Dancing Script', 'Roboto', sans-serif;
+    color: white;
+}
+.main-img {
+    border: 5px solid white;
+    transition: transform .5s;
+    width: 100%;
+}
+.blog-main {
+    display: grid;
+    grid-template-columns: 6fr;
+}
+.middle-1 {
+    width: 300px;
+    height: 200px;
+    grid-column: 6;
+    grid-row: 4;
+    border: 5px solid black;
+    transition: transform .5s;
+}
+.middle-2 {
+    width: 300px;
+    height: 200px;
+    grid-column: 5;
+    grid-row: 4;
+    border: 5px solid black;
+    transition: transform .5s;
+}
+.middle-3 {
+    width: 300px;
+    height: 200px;
+    grid-column: 5;
+    grid-row: 5;
+    border: 5px solid black;
+    transition: transform .5s;
+}
+.middle-4 {
+    width: 300px;
+    height: 200px;
+    grid-column: 6;
+    grid-row: 5;
+    border: 5px solid black;
+    transition: transform .5s;
+}
+.middle-1:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.middle-2:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.middle-3:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.middle-4:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.mg {
+    background-color: grey;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.mg-2 {
+    background-color: grey;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.mg-3 {
+    background-color: grey;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.mg h1 {
+    color: white;
+    font-family: 'Dancing Script', 'Roboto', sans-serif;
+    font-size: 2.0em;
+}
+.mg-2 h1 {
+    color: white;
+    font-family: 'Dancing Script', 'Roboto', sans-serif;
+    font-size: 2.0em;
+}
+.mg-3 h1 {
+    color: white;
+    font-family: 'Dancing Script', 'Roboto', sans-serif;
+    font-size: 2.0em;
+}
+.mg p {
+    font-size: 1.2em;
+}
+.mg-2 p {
+    font-size: 1.2em;
+}
+.mg-3 p {
+    font-size: 1.2em;
+}
+.last-img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 5px solid white;
+    transition: transform .5s;
+}
+.last-img:hover {
+    transform: scale(1.1);
+}
+#last {
+    grid-column-gap: 100px;
+    width: 100%;
+}
+.last-img2 {
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 5px solid white;
+    transition: transform .5s;
+}
+.last-img2:hover {
+    transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

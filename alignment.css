@@ -1,0 +1,67 @@
+section {
+    width: 50%;
+    border: 1px solid;
+    margin-block: 0 auto;
+}
+.block1{
+    width: 50%;
+    margin-right: 0 auto;
+    align-self: left;
+}
+.block1 h2 {
+    text-align: left;
+}
+.cata {
+    text-align: left;
+}
+.then {
+    text-align: center;
+}
+.striking {
+    text-align: right;
+}
+.block2 {
+    align-self: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.as {
+    text-align: left;
+}
+.rising {
+    text-align: center;
+}
+.swelling {
+    text-align: right;
+}
+.block3 {
+    align-self: right;
+    width: 50%;
+    margin-left: 670px;
+}
+.flying {
+    text-align: left;
+}
+.eddy {
+    text-align: center;
+}
+.turning {
+    text-align: right;
+}
+.block4{
+    align-self: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.around {
+    text-align: right;
+}
+.smiting {
+    text-align: center;
+}
+.confound {
+    text-align: left;
+}
+.the {
+    text-align: left;
+}

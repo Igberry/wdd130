@@ -71,6 +71,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #e3c16f;
+    border-radius: 10px;
 }
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -131,14 +132,16 @@ nav {
     grid-template-rows: 3fr;
     background-color: antiquewhite;
     margin-top: 5px;
+    border-radius: 10px;
 }
 .image {
-    width: 500px;
+    width: 520px;
     height: 400px;
     grid-column: 1;
     grid-row: 1;
     border: 10px solid black;
     margin-left: 70px;
+    border-radius: 10px;
 }
 .our-mission {
     grid-column: 2;
@@ -156,7 +159,7 @@ nav {
     grid-column: 1;
     grid-row: 1/2;
     font-family: 'PT Serif';
-    margin: 0 auto;
+    margin-left: 50px;
     width: 100%;
     color: black;
 }
@@ -169,6 +172,7 @@ nav {
     grid-template-rows: 3fr;
     background-color: #faebd7;
     margin-top: 5px;
+    border-radius: 10px;
 }
 .image-2 {
     width: 500px;
@@ -176,8 +180,9 @@ nav {
     grid-column: 2;
     grid-row: 1;
     margin-top: 100px;
-    border: 10px solid white;
+    border: 10px solid black;
     margin-left: 50px;
+    border-radius: 10px;
 }
 .main-3 {
     display: grid;
@@ -185,6 +190,7 @@ nav {
     grid-template-rows: 1fr;
     background-color: antiquewhite;
     margin-top: 5px;
+    border-radius: 10px;
 }
 .association {
     text-align: center;
@@ -195,14 +201,16 @@ nav {
     padding-bottom: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 10px;
 }
 .pix {
     width: 500px;
     height: 300px;
-    border-radius: 1.5px;
-    border: 10px solid black;
+    border: 5px solid black;
     box-shadow: 5px 5px 10px #7b7678;
     transition: transform .5s;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 .pix:hover {
     transform: scale(1.1);
@@ -210,11 +218,11 @@ nav {
 .pix-2 {
     width: 350px;
     height: 300px;
-    margin-left: 13px;
-    border-radius: 1.5px;
-    border: 10px solid black;
+    margin: 0 auto;
+    border: 5px solid black;
     box-shadow: 5px 5px 10px #7b7678;
     transition: transform .5s;
+    border-radius: 10px;
 }
 .pix-2:hover {
     transform: scale(1.1);
@@ -222,10 +230,11 @@ nav {
 .pix-3 {
     width: 400px;
     height: 300px;
-    border-radius: 1.5px;
-    border: 10px solid black;
+    border: 5px solid black;
     box-shadow: 5px 5px 10px #7b7678;
     transition: transform .5s;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 .pix-3:hover {
     transform: scale(1.1);

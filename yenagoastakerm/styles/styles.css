@@ -278,6 +278,8 @@ footer p a:hover {
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1600px;
+    justify-self: center;
+    align-self: center;
 }
 #first {
     background-color: antiquewhite;

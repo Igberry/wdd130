@@ -285,9 +285,10 @@ footer p a:hover {
     background-color: antiquewhite;
     height: 400px;
     margin-top: 5px;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr;
     display: grid;
+    grid-column-gap: 10px;
 }
 .together, .together-2 {
     width: 600px;
@@ -311,14 +312,26 @@ footer p a:hover {
     text-decoration: solid;
     margin-top: 150px;
 }
-.i, .i-2 {
+.i {
     width: 100%;
     height: 100%;
     grid-column: 2;
     grid-row: 1;
     margin-top: 50px;
 }
-.picture, .picture-2 {
+.i-2 {
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 50px;
+}
+.picture {
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+}
+.picture-2 {
     width: 300px;
     height: 300px;
 }
@@ -326,14 +339,30 @@ footer p a:hover {
     background-color: antiquewhite;
     height: 500px;
     margin-top: 5px;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr;
     display: grid;
+    grid-column-gap: 10px;
+}
+.i-3 {
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 50px;
+}
+.i-4 {
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 50px;
 }
 .picture-3 {
     width: 350px;
     height: 300px;
     margin-bottom: 50px;
+    margin-left: 70px;
 }
 .picture-4 {
     width: 300px;
@@ -354,9 +383,13 @@ footer p a:hover {
     background-color: antiquewhite;
     height: 500px;
     margin-top: 5px;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr;
     display: grid;
+    grid-column-gap: 10px;
+}
+.together-3 {
+   margin-left: 50px;
 }
 .together-3 p {
     color: black;
@@ -370,17 +403,32 @@ footer p a:hover {
     width: 300px;
     height: 370px;
     margin-top: 50px;
+    margin-left: 350px;
 }
 .picture-6 {
     width: 300px;
     height: 370px;
     margin-top: 50px;
 }
+.i-5 {
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 50px;
+}
+.i-6 {
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 50px;
+}
 .fourth {
     background-color: antiquewhite;
     height: 150px;
     margin-top: 5px;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr;
     display: grid;
 }
@@ -397,8 +445,6 @@ footer p a:hover {
     color: white;
     font-size: 1.5em;
     border-radius: 5px;
-    grid-column: 1;
-    grid-row: 1;
 }
 .feeds {
     background-color: black;
@@ -406,15 +452,25 @@ footer p a:hover {
     color: white;
     font-size: 1.5em;
     border-radius: 5px;
-    grid-column: 2;
+}
+.i-7 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    grid-column: 1;
     grid-row: 1;
 }
-.i-4 {
+.i-7 :hover {
+    background-color: #A43312;
+}
+.i-8 {
+    grid-column: 3;
+    grid-row: 1;
     text-align: center;
     margin: 0 auto;
     margin-top: 70px;
 }
-.i-4 :hover {
+.i-8 :hover {
     background-color: #A43312;
 }
 .button-box :hover {
